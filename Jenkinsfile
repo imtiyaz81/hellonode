@@ -11,7 +11,7 @@ node('linux_agent') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("imtiyaz81/image")
+        app = docker.build("r/imtiyaz81/image")
     }
 
     stage('Test image') {
